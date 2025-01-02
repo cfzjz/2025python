@@ -60,7 +60,7 @@ def use_copy_file():
 
 def use_seek():
     file=open('file1',encoding='utf-8')
-    file.seek(5,0)
+    file.seek(8,0)
     text=file.read(5)
     print(text)
     file.close()
@@ -99,7 +99,7 @@ if __name__ == '__main__':
     # open_a()
     # use_readline()
     # use_copy_file()
-    # use_seek()
+    use_seek()
     # use_seek_b()
     # copy_file()
-    edit_picture()
+    # edit_picture()
